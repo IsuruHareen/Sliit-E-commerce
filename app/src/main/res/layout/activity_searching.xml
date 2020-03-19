@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllCatalogueActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/all_catalogue_toolbar"
+                layout="@layout/app_bar_layout">
+
+            </include>
+
+            <ImageView
+                android:id="@+id/product_catalogue_image"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_below="@+id/all_catalogue_toolbar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/img2"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find lot of products from different kind of stoles under simple catalogue."
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@+id/product_catalogue_image"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"/>
+
+
+            <Button
+                android:id="@+id/products_search_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:text="Search any product"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:background="@drawable/sendspecialbutton1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/companies_search_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/products_search_button"
+                android:layout_centerHorizontal="true"
+                android:text="Search People or online stores"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@android:color/white"
+                android:background="@drawable/sendspecialbutton1"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Discover and contact lot of online stores under simple catalogue."
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@+id/companies_search_button"
+                android:layout_marginTop="5dp"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/company_catalogue_image"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_below="@+id/text1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/img1"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

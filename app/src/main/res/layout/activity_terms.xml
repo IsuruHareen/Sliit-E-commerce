@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".TermsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="25sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text1"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="Read Carefully These Terms"
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text2"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="RoWeb completely works like a free advertising software. So do not share any sensitive
+data (ex: bank account numbers, passwords of any account, card numbers and cvv numbers, private information ) through RoWeb. Attention: we don't take any
+complain from anyone about losing sensitive data."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="15dp"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text3"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="RoWeb is a business advertiser. So you are not able to put any personal post in RoWeb."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text4"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="This software has been developed for publishing only e-commercial web sites. So, if someone is going to
+register his/her website as an online store, he/she has to put all the details about his/her online store
+(ex: web link of the main page, web link of contact us page)."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="25dp"/>
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text5"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:text="To know common details about products and usage, you are able to use comment
+section to contact online store's owner. If you want to know further more details or uncommon details, you have to use
+other private chat system(ex: e-mail , WhatsApp , WhatsApp business , messenger or instagram)."
+                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_marginTop="25dp"/>
+
+
+
+            <TextView
+                android:id="@+id/text04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text6"
+                android:layout_marginTop="25dp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:text="Use It well"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/text05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text04"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:text="Thank You"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

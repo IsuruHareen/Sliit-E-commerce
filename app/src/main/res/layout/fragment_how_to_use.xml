@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".HowToUseFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/topic01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How To Use RoWeb"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="25sp"
+                />
+            <TextView
+                android:id="@+id/subTopic01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/topic01"
+                android:text="Registration And Login Process"
+                android:textColor="@android:color/darker_gray"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textSize="18sp"
+                />
+
+            <ImageView
+                android:id="@+id/image01"
+                android:layout_width="160dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/subTopic01"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/registerimage"
+                android:scaleType="fitCenter"
+                android:background="@drawable/imageborder1"
+                android:padding="3dp"
+
+                />
+
+            <TextView
+                android:id="@+id/text01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image01"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="RoWeb completely works like free advertising software. It mainly targets
+e-commerce web sites and their products advertising. In that case, the developers of RoWeb need to clear that all
+the users are authorized users. For that we use method to verify your E-main address. Once you enter your valid
+e-mail address and password for RoWeb account as you wish we will send you a verification main to verify your e-mail account. So firstly you
+have to check your e-mail and click on the link inside the mail we sent. After this process you can
+login to your RoWeb account."
+                />
+
+            <ImageView
+                android:id="@+id/image02"
+                android:layout_width="160dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/text01"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/loginimage"
+                android:scaleType="fitCenter"
+                android:background="@drawable/imageborder1"
+                android:padding="3dp"
+
+                />
+
+            <TextView
+                android:id="@+id/text02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image02"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:text="In this section you are able to log into the new RoWeb account
+for that you have to include your verified e-mail address and password you gave in registration process.
+Once you click on login button you will be carried to setup process. In this process, we are required three
+information basically."/>
+
+            <TextView
+                android:id="@+id/subTopic02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text02"
+                android:text="Setup Process"
+                android:textColor="@android:color/darker_gray"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/text03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subTopic02"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="There are two types of rolls in RoWeb. One of them are customers.
+If you wish to register as a customer, in the setup process you are able to include any personal image
+as your profile image. Other roll is business organization. If you wish to register as a business organization
+(e-commercial) you have to upload your business's logo as your profile image and other two fields required
+your or your business's username and full name as below."/>
+
+            <ImageView
+                android:id="@+id/image03"
+                android:layout_width="160dp"
+                android:layout_height="260dp"
+                android:layout_below="@+id/text03"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/setupimage"
+                android:scaleType="fitCenter"
+                android:background="@drawable/imageborder1"
+                android:padding="3dp"
+                />
+
+            <Button
+                android:id="@+id/about_home_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/image03"
+                android:text="About Home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/about_searching_and_catalogue_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/about_home_button"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="About Searching and Categorization"
+                android:background="@drawable/sendspecialbutton1"
+                android:textColor="@android:color/white"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:id="@+id/text04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about_searching_and_catalogue_button"
+                android:layout_marginTop="15dp"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:text="Use It well"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:id="@+id/text05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text04"
+                android:textColor="@android:color/darker_gray"
+                android:textAlignment="center"
+                android:text="Thank You"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

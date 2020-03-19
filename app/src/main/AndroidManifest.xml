@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sliit.project_e_commercial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SellerRegistrationActivity"></activity>
+        <activity android:name=".SearchProductsActivity" />
+        <activity android:name=".ConfirmFinalOrderActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ProductDetailsActivity" />
+        <activity android:name=".ESettingActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".FindRequestActivity" />
+        <activity android:name=".RequestPersonPostActivity" />
+        <activity android:name=".RequestPersonProfileActivity" />
+        <activity android:name=".RequestUserProfileActivity" />
+        <activity android:name=".RequestUserRegisterActivity" />
+        <activity android:name=".RequestUserSettingActivity" />
+        <activity android:name=".RequestUserMainActivity" />
+        <activity android:name=".RequestUserLoginActivity" />
+    </application>
+
+</manifest>

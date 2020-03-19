@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Types">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <include
+                android:id="@+id/typesToolbar"
+                layout="@layout/app_bar_layout">
+            </include>
+
+            <TextView
+                android:id="@+id/t0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/typesToolbar"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:background="@android:color/white"
+                android:textColor="@android:color/darker_gray"
+                android:text="Discover different kind of products with details under well known catalog. "
+                android:layout_marginLeft="0dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t0"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t1"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                />
+
+            <Button
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t2"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                />
+
+            <Button
+                android:id="@+id/t4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t3"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                />
+
+            <Button
+                android:id="@+id/t5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t4"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t5"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t6"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t7"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t9"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t8"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t9"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t10"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t12"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t11"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t13"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t12"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t14"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t13"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t15"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t14"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t15"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+                />
+
+            <Button
+                android:id="@+id/t17"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t16"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t18"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t17"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t19"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t18"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t20"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t19"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t20"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t22"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t21"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t23"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t22"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t24"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t23"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t25"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t24"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t26"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t25"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t27"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t26"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t27"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t29"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t28"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t30"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t29"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t31"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t30"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t32"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t31"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t33"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t32"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t34"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t33"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t34"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t36"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t35"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t37"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t36"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t38"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t37"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t39"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t38"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t39"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t41"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t40"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t42"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t41"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/t43"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t42"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t44"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t43"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t44"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t46"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t45"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t47"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t46"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t48"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t47"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t49"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t48"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t49"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t51"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t50"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t52"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t51"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t53"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t52"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t54"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t53"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t54"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t56"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t55"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t57"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t56"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t58"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t57"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t59"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t58"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t59"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t61"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t60"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t62"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t61"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t63"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t62"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t64"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t63"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/t65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t64"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Home And Garden"
+                android:textAlignment="center"
+                android:layout_marginBottom="2dp"
+
+                />
+
+            <Button
+                android:id="@+id/t66"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t65"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t67"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t66"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t68"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t67"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t69"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t68"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t70"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t69"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+            <Button
+                android:id="@+id/t71"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t70"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:text="Home And Garden"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/sendspecialbutton1"
+                android:textAlignment="center"
+
+                />
+
+
+            <TextView
+                android:id="@+id/t72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/t71"
+                android:textAllCaps="false"
+                android:textSize="22sp"
+                android:textColor="@android:color/white"
+                android:text="Thank You"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
